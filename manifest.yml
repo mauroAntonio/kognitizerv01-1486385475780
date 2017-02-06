@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: kognitizerv01
+  host: kognitizerv01
+  disk_quota: 1024M
+  services:
+  - kognitizerv01-cloudantNoSQLDB
